@@ -24,10 +24,10 @@ int main() {
 	char str1[30],str2[30], str3[30]; 				//creating string variables to store
 
 	int currentline = 0;						// initializing counter to read lines
-	char line[100];							//variable to sing line of string
+	char store[100];							//variable to sing line of string
 
-	while(fgets(line, 100, fpi) != NULL) {				//Reading till end of the line from the file
-	         sscanf(line, "%s %s %s \n",str1,str2,str3);		//Reading strings form the current line into
+	while(fgets(store, 100, fpi) != NULL) {				//Reading till end of the line from the file
+	         sscanf(store, "%s %s %s \n",str1,str2,str3);		//Reading strings form the current line into
 
 		strcpy(dbasepeople[currentline].firstname, str1);
 		strcpy(dbasepeople[currentline].lastname, str2);	//Copying string from text file to structure variable
