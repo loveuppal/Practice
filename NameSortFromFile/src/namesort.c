@@ -41,4 +41,5 @@ int main() {
 	{
 		printf("\n%s", input[i]);	//Printing Strings
 	}
+        fclose(fpi);.                          // Closing the file.
 }
