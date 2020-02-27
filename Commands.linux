@@ -1,0 +1,3 @@
+If no dependencies installed fllow
+>> sudo dpkg --configure -a   //checks what dependencies required
+>> sudo apt-get install -f   //installs the missing dependencies
