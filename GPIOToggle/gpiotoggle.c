@@ -9,7 +9,7 @@
 
 int main() {
 
- system("echo out > /sys/class/gpio/gpio68/direction");		//Enabling GPIO68 to output(P8.10)
+ system("echo out > /sys/class/gpio/gpio68/direction");		//Enabling GPIO68 to output(P8.10(Pin))
  sleep(1);
 
  int counter=0;							//creating a counter
