@@ -45,11 +45,11 @@
 	    printf(" %d ",TwoCardsofPlayer);					//prints what card got from deck
 	    printf(" %d ",TwoCardsofDealer);
 
-	    int P_Picks=TwoCardsofPlayer, D_Picks=TwoCardsofDealer;	//storing values of first two deal of cards for the further iteration
+	    int P_Picks=TwoCardsofPlayer, D_Picks=TwoCardsofDealer;  //storing values of first two deal of cards for the further iteration
 
 	    while(1) {
 	    	char in;
-	    	scanf ("%c ", &in);									//asks if player wants to play
+	    	scanf ("%c ", &in);						//asks if player wants to play
 	    		if(in =='y') {									//player hits y to starts to game
 	    		int ThirdPick_P = RandomNumbers(); 				//Picking the third card of player
 	    		int ThirdPick_D = RandomNumbers();				//picking third card of the dealer
