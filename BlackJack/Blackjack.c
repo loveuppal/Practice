@@ -38,10 +38,10 @@
 	    while(1) {
 	    	char d;								//creating a char variable to question the player
 	    	scanf ("%c ", &d);					//asks if player wants to play
-	    		if(d=='y') {						//if he presses y he plays
+	    		if(d=='y') {						//if the player hits y to start game
 	    		int e = printRandoms(); 		//prints a random number card from deck
 	    		j = printRandoms();
-	    		k = k+j;
+	    		k = k+j; 				//Dealer's next card
 	    		i = i+e;						//Deal the next card and add to previous card
 
 	    		printf(" %d ",e);				//prints what card got from deck
