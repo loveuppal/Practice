@@ -22,12 +22,12 @@
 	int main()
 	{
 	    srand(time(0));
-	    char d;								//creating a char variable to question the player
-	    //scanf ("%c ", &d);					//asks if player wants to play
-	    int a = printRandoms(); 		//prints a random number card from deck
+	    char d;						//creating a char variable to question the player
+	    //scanf ("%c ", &d);				//asks if player wants to play
+	    int a = printRandoms(); 				//prints a random number card from deck
 	    int b = printRandoms();
 	    int c = a+b;
-	    int a1 = printRandoms(); 		//prints a random number card from deck
+	    int a1 = printRandoms(); 				//prints a random number card from deck
 	    int b1 = printRandoms();
 	    int c1 = a1+b1;
 	    printf(" %d ",c);				//prints what card got from deck
