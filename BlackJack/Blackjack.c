@@ -59,8 +59,8 @@
 	    		printf(" %d ",ThirdPick_P);				//Prints the Third card picked by Player
 	    		printf("%d ",P_Picks);					//prints the sum of all card iterations
 
-	    		printf(" %d ",ThirdPick_D);						//Prints the Third card picked by Dealer
-	    		printf("%d ",D_Picks);							//prints the sum of all card iterations
+	    		printf(" %d ",ThirdPick_D);				//Prints the Third card picked by Dealer
+	    		printf("%d ",D_Picks);					//prints the sum of all card iterations
 	    		}
 
 	    		if((P_Picks>21 && D_Picks<21)||(D_Picks==21))
@@ -72,5 +72,5 @@
 	    		if(P_Picks>21 || D_Picks>21)
 	    			return(1);
 
- }															//while loop end
-}															//main ends
+ }										//while loop end
+}										//main ends
