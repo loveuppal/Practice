@@ -11,7 +11,7 @@
 
 	int RandomNumbers()
 	{
-	    for (int i = 0; i < 1; i++)								//prints only single number
+	    for (int i = 0; i < 1; i++)						//prints only single number
 	    {
 	        int num = (rand() % (10 - 1 + 1)) + 1;				//prints random numbers from specified limits
 	        return num;
