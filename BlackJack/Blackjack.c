@@ -66,24 +66,3 @@
 
  }										//while loop end
 }											//main ends
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//if((i>k && i<=21 && k<=21) || i==21 )
-		    		//printf("Player won");
-		    	//break;
-		    	//if((k<i && i<=21 && k<=21) || k==21)
-		    	//	printf("Dealer won");
-		    	//break;
