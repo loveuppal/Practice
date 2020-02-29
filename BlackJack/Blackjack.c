@@ -52,9 +52,9 @@
 	    	scanf ("%c ", &in);						//asks if player wants to play
 	    		if(in =='y') {						//player hits y to starts to game
 	    		int ThirdPick_P = RandomNumbers(); 			//Picking the third card of player
-	    		int ThirdPick_D = RandomNumbers();				//picking third card of the dealer
-	    		D_Picks = D_Picks+ThirdPick_D;					//Iterating the Card picks of the Dealer
-	    		P_Picks = P_Picks+ThirdPick_P;					//Iterating the card picks of the player
+	    		int ThirdPick_D = RandomNumbers();			//picking third card of the dealer
+	    		D_Picks = D_Picks+ThirdPick_D;				//Iterating the Card picks of the Dealer
+	    		P_Picks = P_Picks+ThirdPick_P;				//Iterating the card picks of the player
 
 	    		printf(" %d ",ThirdPick_P);						//Prints the Third card picked by Player
 	    		printf("%d ",P_Picks);							//prints the sum of all card iterations
