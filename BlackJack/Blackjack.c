@@ -56,8 +56,8 @@
 	    		D_Picks = D_Picks+ThirdPick_D;				//Iterating the Card picks of the Dealer
 	    		P_Picks = P_Picks+ThirdPick_P;				//Iterating the card picks of the player
 
-	    		printf(" %d ",ThirdPick_P);						//Prints the Third card picked by Player
-	    		printf("%d ",P_Picks);							//prints the sum of all card iterations
+	    		printf(" %d ",ThirdPick_P);				//Prints the Third card picked by Player
+	    		printf("%d ",P_Picks);					//prints the sum of all card iterations
 
 	    		printf(" %d ",ThirdPick_D);						//Prints the Third card picked by Dealer
 	    		printf("%d ",D_Picks);							//prints the sum of all card iterations
