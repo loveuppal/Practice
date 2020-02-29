@@ -30,13 +30,13 @@
 	    int a1 = printRandoms(); 				//prints a random number card from deck
 	    int b1 = printRandoms();
 	    int c1 = a1+b1;
-	    printf(" %d ",c);				//prints what card got from deck
+	    printf(" %d ",c);					//prints what card got from deck
 	    printf(" %d ",c1);
 	    int i=c, k=c1;
 	    int j;
 	    while(1) {
-	    	char d;								//creating a char variable to question the player
-	    	scanf ("%c ", &d);					//asks if player wants to play
+	    	char d;						//creating a char variable to question the player
+	    	scanf ("%c ", &d);				//asks if player wants to play
 	    		if(d=='y') {						//if the player hits y to start game
 	    		int e = printRandoms(); 		//prints a random number card from deck
 	    		j = printRandoms();
