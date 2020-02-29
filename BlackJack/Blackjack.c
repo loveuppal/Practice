@@ -20,23 +20,23 @@
 
 	int playerwon()
 	{
-		return printf("player won");						//to display that player has won
+		return printf("player won");					//to display that player has won
 }
 
 	int dealerwon()
 	{
-		return printf("Dealer won");						//to display that dealer has won
+		return printf("Dealer won");					//to display that dealer has won
 }
 
 	int randAdd() {
 		int a = RandomNumbers();
 		int b = RandomNumbers();
-		return a+b;											//Adds two random numbers
+		return a+b;							//Adds two random numbers
 	}
 
 	int main()
 	{
-	    srand(time(0));										//actualize the random numbers on every RUN
+	    srand(time(0));							//actualize the random numbers on every RUN
 	    int Rnum1, Rnum2, Rnum3, Rnum4;
 
 	    int TwoCardsofPlayer = randAdd(Rnum1, Rnum2);
