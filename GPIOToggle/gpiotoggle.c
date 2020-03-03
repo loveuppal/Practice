@@ -23,8 +23,9 @@ int main() {
     
       else
          system("echo 0 > /sys/class/gpio/gpio68/value");	//GPIO PIN > LOW if the counter counts a odd integer
-        counter++;						//Count continues.
-        sleep(1);						//Delay of 1 second on every HIGH and LOW
+         counter++;						//Count continues.
+         
+         sleep(1);						//Delay of 1 second on every HIGH and LOW
     }
 }
 
