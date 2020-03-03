@@ -20,6 +20,7 @@ int main() {
   
       if (counter % 2 == 0)
           system("echo 1 > /sys/class/gpio/gpio68/value");	//GPIO PIN > HIGH if the counter counts an even integer
+    
       else
          system("echo 0 > /sys/class/gpio/gpio68/value");	//GPIO PIN > LOW if the counter counts a odd integer
         counter++;						//Count continues.
