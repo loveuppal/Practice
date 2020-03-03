@@ -23,3 +23,6 @@
  /*to change folders containing multiple sub-folders of files use -r (recursive)*/
  >> cp -r    //copy folder containg multile files
  >> rm -r    //delete folders containg multiple files
+ 
+ /*If error like Glob, regex, unable to locate. do not apt install, instead use*/
+ >> sudo dpkg -i executablefile
