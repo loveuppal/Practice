@@ -13,4 +13,7 @@
 
 >> gcc filename.c -o filename     //to compile a C file
 >> ./filename                     //to execute the compiled C file
+
+>>tar xvzf filename.tar.gz        //to extract .gz file
+>>tar xf filename.tar.xz          //to extract .xz file
  
