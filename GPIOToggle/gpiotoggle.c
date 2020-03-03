@@ -15,6 +15,7 @@ int main() {
  sleep(1);
 
  int counter=0;							//creating a counter
+ 
  while(1) {
       if (counter % 2 == 0)
           system("echo 1 > /sys/class/gpio/gpio68/value");	//GPIO PIN > HIGH if the counter counts an even integer
