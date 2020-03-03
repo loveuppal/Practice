@@ -7,4 +7,6 @@
 >> sudo dpkg -i ../path/executable.bin    //to install the .deb file after Line 5 execution.
 
 >> whereis file     //to know the location of the file.
+
+>> cat > ../path/..filename.format  // to create a document file and then can be written.
  
