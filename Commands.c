@@ -19,3 +19,7 @@
 
 /*always move manual installation package into /usr/local*/
 >> sudo mv ../path/filefolder /usr/local.
+ 
+ /*to change folders containing multiple sub-folders of files use -r (recursive)*/
+ >> cp -r    //copy folder containg multile files
+ >> rm -r    //delete folders containg multiple files
