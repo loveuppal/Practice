@@ -2,6 +2,7 @@
  * Name		: gpiotoggle.c
  * Author	: Srikanth Pendem (Adapted from AREmbedded's gpio_led.c program)
 */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -10,6 +11,7 @@
 int main() {
 
  system("echo out > /sys/class/gpio/gpio68/direction");		//Enabling GPIO68 to output(P8.10(Pin))
+ 
  sleep(1);
 
  int counter=0;							//creating a counter
