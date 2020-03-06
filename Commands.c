@@ -26,3 +26,6 @@
  
  /*If error like Glob, regex, unable to locate. do not apt install, instead use*/
  >> sudo dpkg -i executablefile
+ 
+ /*If left or right mouse button doesnt work*/
+ >> sudo apt install gnome-tweaks >> select "Area"
