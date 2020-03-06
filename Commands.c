@@ -29,3 +29,6 @@
  
  /*If left or right mouse button doesnt work*/
  >> sudo apt install gnome-tweaks >> select "Area"
+ 
+ >> sudo mkfs.FILEFORMAT /dev/path     //to change filesystem of drives
+ >> sudo fdisk -l                     //to check the drives
