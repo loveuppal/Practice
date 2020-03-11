@@ -5,7 +5,7 @@ int *threadFunction( int *v) {
 	return 0;
 }
 int main() {
-	int y = 19;										// also to print this value(main)
+	int y = 19;									// also to print this value(main)
 	pthread_t id;									// create a id
 	pthread_create (&id, NULL, &threadFunction, &y);// joining id with the function
 	printf("%d ", y);								// prints value(main)
