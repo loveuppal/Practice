@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<pthread.h>
 int *threadFunction( int *v) {
-	*v = 25;										//  to print this value(function)
+	*v = 25;									//  to print this value(function)
 	return 0;
 }
 int main() {
