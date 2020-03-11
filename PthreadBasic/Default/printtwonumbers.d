@@ -1,0 +1,1 @@
+printtwonumbers.o: ../printtwonumbers.c
