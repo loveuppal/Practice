@@ -10,7 +10,7 @@ int main() {
 	pthread_create (&id, NULL, &threadFunction, &y);// joining id with the function
 	printf("%d ", y);								// prints value(main)
 	void *result;									// creates a result
-	pthread_join (id, &result);						// joins id with result
+	pthread_join (id, &result);							// joins id with result
 	printf(" %d",y );								//prints value(function
 
 }
