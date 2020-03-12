@@ -25,7 +25,7 @@ int main() {
 
 	int x;
 	printf("enter the number: ");
-	scanf("%d", &x);								//takes the guess number
-	binarySearch(x);								//binarysearch function
+	scanf("%d", &x);				//takes the guess number
+	binarySearch(x);				//binarysearch function
 
 }
