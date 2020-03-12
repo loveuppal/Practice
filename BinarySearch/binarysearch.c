@@ -11,8 +11,8 @@ int binarySearch(int x)
 	}
     while (first <= last) {
         int middle = first + (last - first) / 2;	//calculating mid index of the array
-        if (arr[middle] == x)						//if guessed number = mid index
-            return win();							//returns to win
+        if (arr[middle] == x)				//if guessed number = mid index
+            return win();				//returns to win
         if (arr[middle] < x)
             first = middle + 1;						//finds new mid index if guessed number is less than previous mid index
         else
