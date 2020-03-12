@@ -18,7 +18,7 @@ int binarySearch(int x)
         else
             last = middle - 1;				//finds new mid index if guessed number is greater than previous mid index
     }
-    printf("Out Reach");							//returns if guessed number is out of limits
+    printf("Out Reach");				//returns if guessed number is out of limits
     return 0;
 }
 int main() {
