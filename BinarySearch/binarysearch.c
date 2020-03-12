@@ -1,13 +1,13 @@
 #include <stdio.h>
 int win() {
-	printf("Guessed!");								//prints if number found in the array
+	printf("Guessed!");				//prints if number found in the array
 }
 int binarySearch(int x)
 {
 	int first = 0, last = 1000, arr[1000];
 
 	for(int i = 0; i <= 1000; i++){
-	    arr[i] = i;									//creating an array containing 1 to 1000 numbers
+	    arr[i] = i;					//creating an array containing 1 to 1000 numbers
 	}
     while (first <= last) {
         int middle = first + (last - first) / 2;	//calculating mid index of the array
