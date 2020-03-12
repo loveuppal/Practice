@@ -14,9 +14,9 @@ int binarySearch(int x)
         if (arr[middle] == x)				//if guessed number = mid index
             return win();				//returns to win
         if (arr[middle] < x)
-            first = middle + 1;						//finds new mid index if guessed number is less than previous mid index
+            first = middle + 1;				//finds new mid index if guessed number is less than previous mid index
         else
-            last = middle - 1;						//finds new mid index if guessed number is greater than previous mid index
+            last = middle - 1;				//finds new mid index if guessed number is greater than previous mid index
     }
     printf("Out Reach");							//returns if guessed number is out of limits
     return 0;
