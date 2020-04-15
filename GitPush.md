@@ -6,3 +6,4 @@
 5. Commit the changes you've made using >> git commit -m "xxx changes"
 6. Upload the changes you've made using >> git push origin branch(usually master)
 7. Login with your credentials and Done!
+8. Repeat 4,5,6,7 everytime you commit the changes 
