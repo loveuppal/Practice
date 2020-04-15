@@ -1,4 +1,4 @@
-# Pushing files into the existing Project
+# Pushing local project files into github
 1. First clone the repository that you want work on.
 2. Open the cloned repository.
 3. Initialize the respoitory into github using >> git init.
