@@ -30,15 +30,11 @@
  */
 
 
-
-
 /*Note: Single On-board push button is used to accomplish the project
  * 		LEDs glow at a rate of 500ms only
  * 		The project uses vTaskDelayUntil
  * 		The project is implemented using only one single task function
  */
-
-
 
 #include "board.h"
 #include "FreeRTOS.h"
@@ -107,10 +103,8 @@ static void TaskFunction(void *pvParameters)
 		Board_LED_Set(LED, LedOff);				/*Sets the LED Led off*/
 		vTaskDelayUntil(&xLastWakeTime, xFrequencyOff);	
 
-    		} 							/*If ends here*/
-
+    	} 								/*If ends here*/
     }									/*While ends here*/
-
  } 									/*Task Function ends here.*/
 
 int main(void)
