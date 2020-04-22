@@ -44,63 +44,49 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
-#define GPIO_INTERRUPT_BUTTON   BUTTONS_BUTTON1_GPIO_BIT_NUM	/*OnBoard Button Pin (10)*/
-#define GPIO_INTERRUPT_PORT    BUTTONS_BUTTON1_GPIO_PORT_NUM	/*OnBoard Button Port (P2)*/
+#define GPIO_INTERRUPT_BUTTON		BUTTONS_BUTTON1_GPIO_BIT_NUM	/*OnBoard Button Pin (10)*/
+#define GPIO_INTERRUPT_PORT		BUTTONS_BUTTON1_GPIO_PORT_NUM	/*OnBoard Button Port (P2)*/
 
-#define GPIO_IRQ_HANDLER		EINT3_IRQHandler	/* GPIO interrupt IRQ function name */
-#define GPIO_INTERRUPT_NVIC_NAME    	EINT3_IRQn		/* GPIO interrupt NVIC interrupt name */
-
-
+#define GPIO_IRQ_HANDLER		EINT3_IRQHandler		/* GPIO interrupt IRQ function name */
+#define GPIO_INTERRUPT_NVIC_NAME    	EINT3_IRQn			/* GPIO interrupt NVIC interrupt name */
 
 /*Led on/off states*/
-
 bool LedOff = true;
 bool LedOn = false;
 
 /*Assign LEDs */
-
 struct Leds {
-int Red = 0;							/* OnBoard LED 0 mapped to Red color */
-int Green = 1;							/* OnBoard LED 1 mapped to Green color */
-int Blue = 2;							/* OnBoard LED 2 mapped to Blue color */
+	int Red = 0;							/* OnBoard LED 0 mapped to Red color */
+	int Green = 1;							/* OnBoard LED 1 mapped to Green color */
+	int Blue = 2;							/* OnBoard LED 2 mapped to Blue color */
 }
-
 
 void GPIO_IRQ_HANDLER(void)
 {
-	Chip_GPIOINT_ClearIntStatus(LPC_GPIOINT, GPIO_INTERRUPT_PORT, (1 << GPIO_INTERRUPT_BUTTON));
-
-	// check the button states
-		int l = Buttons_GetStatus();			/*Take the status of the button press (P2.10) On board button*/
+	Chip_GPIOINT_ClearIntStatus(LPC_GPIOINT, GPIO_INTERRUPT_PORT, 
+				    (1 << GPIO_INTERRUPT_BUTTON));
+	int l = Buttons_GetStatus();					/*Take the status of the button press (P2.10) On board button*/
 }
-
-
 
 static void pvrSetupHardware(void)
 {
 	SystemCoreClockUpdate();
-
 	/*Initiate Board Configurations.*/
-
 	Board_Init();
 
 /*Set LEDs off*/
-
 	Board_LED_Set(0, LedOff);
 	Board_LED_Set(1, LedOff);
 	Board_LED_Set(2, LedOff);
 	
 	Chip_GPIOINT_SetIntFalling(LPC_GPIOINT, GPIO_INTERRUPT_PORT, 
 				(1 << GPIO_INTERRUPT_BUTTON));		/* Configure the GPIO interrupt */
-
 	/* Enable interrupt in the NVIC */
 	NVIC_ClearPendingIRQ(GPIO_INTERRUPT_NVIC_NAME);
 	NVIC_EnableIRQ(GPIO_INTERRUPT_NVIC_NAME);
-
-}
+}									/* Setup ends here*/
 
 /*Led Task Function*/
-
 static void TaskFunction(void *pvParameters)
 {
 	LEDs LED = *((LEDs*) pvParameters);		/*Passing the Red, Green, Blue Parameters*/
@@ -113,7 +99,6 @@ static void TaskFunction(void *pvParameters)
 
     while (l)
     {
-
     	if(l==1) {							/*If the button is pressed. > 0x01*/
 
 		Board_LED_Set(LED, LedOn);				/*Sets the LED Led on*/
