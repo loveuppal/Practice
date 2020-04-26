@@ -2,8 +2,11 @@
 #include <sys/types.h>
 #include <dirent.h>
 #include <stdio.h>
+
+
 int main() {
-int result = mkdir("/home/sriq/Rome", 0777);		//creates a directory named Rome
+	
+	int result = mkdir("/home/sriq/Rome", 0777);		//creates a directory named Rome
 
 DIR *Rome;						//pointer to the directory
 FILE *fp;						//pointer to a file
