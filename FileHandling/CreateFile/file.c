@@ -3,7 +3,6 @@
 #include <dirent.h>
 #include <stdio.h>
 
-
 int main() {
 	
 	int result = mkdir("/home/sriq/Rome", 0777);		//creates a directory named Rome
