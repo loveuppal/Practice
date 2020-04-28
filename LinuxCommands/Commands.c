@@ -11,6 +11,11 @@
 >> whereis file     //to know the location or the path of the file.
 >> file filename    // To know the file type
 
+>> sudo mount /dev/mountFile ../path/..     //mount a device.
+>> sudo umount /dev/mountFile               //dismount a device
+>> lsblk                                  // lists the devices.
+ 
+
 >> cat > ../path/..filename.format  // to create a document file and then can be written.
 >> nano ../path/.. filename.format  // to create a document file and then can be written.
 
