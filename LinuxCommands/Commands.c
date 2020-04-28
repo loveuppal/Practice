@@ -9,6 +9,7 @@
 >> sudo chown $USER -R /targetPath								//To change the ownership of the device
 
 >> whereis file     //to know the location or the path of the file.
+>> file filename    // To know the file type
 
 >> cat > ../path/..filename.format  // to create a document file and then can be written.
 >> nano ../path/.. filename.format  // to create a document file and then can be written.
