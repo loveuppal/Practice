@@ -14,6 +14,7 @@
 >> sudo mount /dev/mountFile ../path/..     //mount a device.
 >> sudo umount /dev/mountFile               //dismount a device
 >> lsblk                                  // lists the devices.
+>> ls -l ../path/file                    //to know ownsership
  
 
 >> cat > ../path/..filename.format  // to create a document file and then can be written.
