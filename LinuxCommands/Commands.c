@@ -1,15 +1,15 @@
->> sudo dpkg --configure -a   //checks what dependencies are required
->> sudo apt-get install -f   //installs the listed missing dependencies
+>> sudo dpkg --configure -a   								//checks what dependencies are required
+>> sudo apt-get install -f   								//installs the listed missing dependencies
  
->> sudo ln -s ../path/../executable_file /usr/local/bin  //To create an application shortcut.
+>> sudo ln -s ../path/../executable_file /usr/local/bin		//To create an application shortcut.
 
->> sudo chmod +x ../path/executable.bin    //to change .bin to executable to further Line 6.
->> sudo dpkg -i ../path/executable.bin    //to install the .deb file after Line 5 execution.
+>> sudo chmod +x ../path/executable.bin    					//to change .bin to executable to further Line 6.
+>> sudo dpkg -i ../path/executable.bin    					//to install the .deb file after Line 5 execution.
 
->> sudo chown $USER -R /targetPath	 //To change the ownership of the device
+>> sudo chown $USER -R /targetPath	 						//To change the ownership of the device
 
->> whereis file     //to know the location or the path of the file.
->> file filename    // To know the file type
+>> whereis file     										//to know the location or the path of the file.
+>> file filename    										// To know the file type
 
 >> sudo mount /dev/mountFile ../path/..     //mount a device.
 >> sudo umount /dev/mountFile               //dismount a device
