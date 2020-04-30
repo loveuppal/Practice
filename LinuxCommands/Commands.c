@@ -8,8 +8,8 @@
 
 >> sudo chown $USER -R /targetPath	 						//To change the ownership of the device
 
->> whereis file     										//to know the location or the path of the file.
->> file filename    										// To know the file type
+>> whereis file     				//to know the location or the path of the file.
+>> file filename 						// To know the file type
 
 >> sudo mount /dev/mountFile ../path/..     			//mount a device.
 >> sudo umount /dev/mountFile               //dismount a device
