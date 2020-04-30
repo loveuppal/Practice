@@ -16,6 +16,7 @@
 >> lsblk                                  // lists the devices.
 >> ls -l ../path/file                    //to know ownsership
  
+>> sudo su      //Get into the root
 
 >> cat > ../path/..filename.format  // to create a document file and then can be written.
 >> nano ../path/.. filename.format  // to create a document file and then can be written.
