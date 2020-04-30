@@ -18,7 +18,7 @@
  
 >> sudo su      //Get into the root
 >> Ctrl+D (multiple times until exit) 				// to exit from root
->> su 
+>> su username                           // to exit from root
 
 >> cat > ../path/..filename.format  // to create a document file and then can be written.
 >> nano ../path/.. filename.format  // to create a document file and then can be written.
