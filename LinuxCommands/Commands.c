@@ -6,7 +6,7 @@
 >> sudo chmod +x ../path/executable.bin    //to change .bin to executable to further Line 6.
 >> sudo dpkg -i ../path/executable.bin    	//to install the .deb file after Line 5 execution.
 
->> sudo chown $USER -R /targetPath	 						//To change the ownership of the device
+>> sudo chown $USER -R /targetPath	 	//To change the ownership of the device
 
 >> whereis file     				//to know the location or the path of the file.
 >> file filename 						// To know the file type
