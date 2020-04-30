@@ -8,7 +8,7 @@ int *threadFunction( int *v) {
 
 int main() {
 	
-	int y = 19;						// also to print this value(main)
+
 	printf("%d ", y);					// prints value(main)
 
 	pthread_t id;						// create a id
