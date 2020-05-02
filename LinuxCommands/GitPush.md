@@ -16,6 +16,6 @@
 5. Upload the changes you've made using >> git push origin branch(usually master)
 6. Delete the old repository.
 
-# Always pull repository to be updated
+# Always PULL before PUSH
 1. Get into the cloned repository
 2. git pull origin master
