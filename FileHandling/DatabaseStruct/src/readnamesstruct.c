@@ -31,8 +31,7 @@ int main() {
 
 		strcpy(dbasepeople[currentline].firstname, str1);
 		strcpy(dbasepeople[currentline].lastname, str2);	//Copying string from text file to structure variable
-		strcpy(dbasepeople[currentline].city, str3);
-		currentline++;
+		strcpy(dbasepeople[currentline].city, str3);		currentline++;
 	}
 
 	for(int i=0; i<currentline;i++){
