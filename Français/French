@@ -103,9 +103,22 @@ dovient		durent		devront
 
 
 Dire		: To tell
+Present 		Past	Future
+dis		dis		dirai
+dis		dis		diras
+dit		dit		dira
+disons			dimes		dirons
+disent			dirent		diront
+
+Voir	: To see
+Present		Past		Future
+vois		vis		verrai
+vois		vis		verras
+voit		vit		verra
+voyons			vimes		verrons
+voient			virent		verront
+
 Laisser	: To Let
-Dont		: whose
-Mais		: But
 
 Prepositions: 
 avec	: with
@@ -116,6 +129,8 @@ del	: du
 al	: au
 de los	: des
 a los	: aux
+Dont		: whose
+Mais		: But
 
 Articles
 Le, La, Les, Las
