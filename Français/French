@@ -51,14 +51,14 @@ vuex		voulus		voudrai
 vuex		voulus		voudras
 veut		voulut		voudra
 voulons		voulumes	voudrons
-veulent	voulurent	voudront
+veulent		voulurent	voudront
 
 Aimer		: To like
 Present	Past		Future
 aime		aimai		aimerai
 aimes		aimas		aimeras
 aime		aima		aimera
-aimons		aimames	aimerons
+aimons		aimames		aimerons
 aiment		aimerent	aimeront
 
 Pouvoir	: To be able to (can)
@@ -66,8 +66,8 @@ Present	Past		Future
 puex		pus		pourrai
 peux		pus		pourras
 peut		put
-pouvons	pumes
-peuvent	purent
+pouvons		pumes		pourrons
+peuvent		purent		pourront
 Aller		: To go
 Etre		: To be
 Avoir		: To have
