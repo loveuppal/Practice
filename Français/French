@@ -65,10 +65,17 @@ Pouvoir	: To be able to (can)
 Present	Past		Future
 puex		pus		pourrai
 peux		pus		pourras
-peut		put
+peut		put		pourrat
 pouvons		pumes		pourrons
 peuvent		purent		pourront
+
 Aller		: To go
+Present		Past		Future
+vais		allai			irai
+vas		allas			iras
+va		alla			ira
+allons		allames		irons
+vont		allerent		iront
 Etre		: To be
 Avoir		: To have
 Devoir		: Must
