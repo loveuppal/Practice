@@ -46,7 +46,19 @@ NOUS	: ISSONS
 ELLES	: ISSENT
 
 Vouloir	: To want
+Present	Past		Future
+vuex		voulus		voudrai
+vuex		voulus		voudras
+veut		voulut		voudra
+voulons	voulumes	voudrons
+veulent	voulurent	voudront
+
 Aimer		: To like
+Present	Past		Future
+
+
+
+
 Pouvoir	: To be able to (can)
 Aller		: To go
 Etre		: To be
@@ -56,8 +68,6 @@ Dire		: To tell
 Laisser	: To Let
 Dont		: whose
 Mais		: But
-Ce que c'est : what is it.
-Penser : To think
 
 Prepositions: 
 avec	: with
@@ -68,7 +78,6 @@ del	: du
 al	: au
 de los	: des
 a los	: aux
-donc : so, therefore
 
 Articles
 Le, La, Les, Las
