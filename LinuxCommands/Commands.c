@@ -50,6 +50,6 @@
  /*If left or right mouse button doesnt work*/
  >> sudo apt install gnome-tweaks >> select "Area"
  
- >> 
+ >> $?
  
 
