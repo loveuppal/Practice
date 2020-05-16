@@ -50,6 +50,6 @@
  /*If left or right mouse button doesnt work*/
  >> sudo apt install gnome-tweaks >> select "Area"
  
- >> echo $?       //To know the command execution result
+ >> echo $?       //To know the command execution result (1) Fail ; (0) Pass
  
 
