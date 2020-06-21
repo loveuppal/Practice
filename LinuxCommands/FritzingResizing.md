@@ -12,7 +12,8 @@
 **Inkspace**<br />
 - Open Inkspace editor and import the .svg image into workspace.<br />
 - Resize the image, you can see Drag option to resize.<br />
-- Goto *File > Document Properties* or *ctrl+shft+D* and select *Resize page to drawing or selection*<br />
+- Goto *File > Document Properties* or *ctrl+shft+D*.<br />
+- Under *custom size* drop down *Resize page to contect* select *Resize page to drawing or selection*<br />
 - Save the file as *Inkspace svg*<br />
 
 **Fritzing**<br />
