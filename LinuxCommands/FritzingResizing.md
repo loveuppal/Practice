@@ -8,6 +8,7 @@
 **Fritzing**
 - Select the component you want to resize in Fritzing.<br /> 
 - Right-Click on the component and export the files into any directory and extract.<br />
+
 **Inkspace**<br />
 - Open Inkspace editor and import the .svg image into workspace.<br />
 - Resize the image, you can see Drag option to resize.<br />
