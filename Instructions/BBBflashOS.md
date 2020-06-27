@@ -14,7 +14,7 @@
 - Remove the SD card.<br />
 - Open the SD Card, Navigate to */boot/uEnv.txt, Edit it by *sudo nano uEnv.txt*.*<br />
 - Search for *#cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh* and Remove **#** <br />
-- *Press and Hold* the button beside the *Ethernet Port*, then power-up the Beaglebone.<br />
+- Insert the SD into Beaglebone, *Press and Hold* the button beside the *Ethernet Port*, then power-up the Beaglebone.<br />
 - *ALL LEDS WILL FLASH AT ONCE* then they blink accordingly.<br />
 - *WAIT UNTIL ALL THE LEDS OFF*<br />
 - *DONE*<br />
