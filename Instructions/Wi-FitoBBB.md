@@ -8,7 +8,7 @@
 - Download the latest kernel-headers of your BBB.</br>
    **$ sudo apt install linux-headers-$(uname -r)**
 - Update and Upgrade you BBB.</br>
-        **$ sudo apt update && sudo apt upgrade**
+   **$ sudo apt update && sudo apt upgrade**
 - Do as follows
    **$ sudo apt install dkms** </br>
    **$ git clone -b v5.6.4.2 https://github.com/aircrack-ng/rtl8812au.git** </br>
@@ -20,3 +20,6 @@
 - if yes, you've successfully installed the drives Cheers!</br>
 ### Connect BBB to a Wi-Fi nearby network
 - Do as follows
+**$ sudo connmanctl** this is already installed in your BBB</br>
+**$ connmanctl> scan wifi**</br>
+Scan completed for wifi.</br>
