@@ -9,7 +9,7 @@
    **$ sudo apt install linux-headers-$(uname -r)**
 - Update and Upgrade you BBB.</br>
    **$ sudo apt update && sudo apt upgrade**
-- Do as follows
+- Do as follows</br>
    **$ sudo apt install dkms** </br>
    **$ git clone -b v5.6.4.2 https://github.com/aircrack-ng/rtl8812au.git** </br>
    **$ cd rtl8812au** </br>
