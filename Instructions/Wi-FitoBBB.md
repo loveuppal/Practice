@@ -5,5 +5,5 @@
 - Check online if the Wi-Fi adapter you are using has drivers for linux.
 ### ***T2U Nano*** Wi-fi adpater driver Installation as follows.
 - Connect ethernet to your BBB to access the internet.
-- Download the latest kernel-headers of your BBB.
+- Download the latest kernel-headers of your BBB.</br>
   **$ sudo apt install linux-headers-$(uname -r)**
