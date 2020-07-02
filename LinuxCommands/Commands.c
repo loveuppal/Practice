@@ -3,6 +3,8 @@
  
 >> sudo ln -s ../path/../executable_file /usr/local/bin		//To create an application shortcut.
 
+>> sudo du -h --max-depth					// To know file sizes in a folder
+
 >> sudo chmod +x ../path/executable.bin				//to change .bin to executable
 >> sudo dpkg -i ../path/executable.bin				//to install the .deb file
 
