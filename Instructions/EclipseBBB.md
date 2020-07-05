@@ -27,7 +27,7 @@ Check all, ONLY the SSHs, click Nexts and Finish.
 ```
 Click on My home and you will enter the credentials.
 ```
-- You are now connected view all the files in BBB by dropping down.
+- You are now connected view all the files in BBB by dropping down menu.
 
 **BBB Terminal View in Eclipse**
 - You can explore the BBB while in Eclipse by enabling the SSH terminal window in the Eclipse.
@@ -45,3 +45,28 @@ OK
 ```
 - Now you can browse the BBB.
 
+### Install the Cross compiler.
+
+- Check the location of GCC on the Beagebone.
+```
+$ whereis gcc
+gcc: /usr/bin/gcc /usr/lib/gcc
+$ cd /usr/lib/gcc
+```
+- You'll see either of these
+```
+arm-linux-gnueabihf (or) arm-linux-gnueabi
+```
+- Now on your Host Machine, install the ARM GCC Compiler.
+- If you see **arm-linux-gnueabihf** 
+```
+$ sudo apt update && sudo apt upgrade
+$ sudo apt install arm-linux-gnueabihf
+$ sudo apt update && sudo apt upgrade
+```
+- If you see **arm-linux-gnueabi** 
+```
+$ sudo apt update && sudo apt upgrade
+$ sudo apt install arm-linux-gnueabi
+$ sudo apt update && sudo apt upgrade
+```
