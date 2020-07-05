@@ -7,11 +7,18 @@
 
 ```
 [Desktop Entry]
-Comment=Eclipse 
+Comment=APPNAME 
 Terminal=false 
-Name=Eclipse
+Name=APPNAME
 Exec=/path/../application
 Type=Application
 Icon=/path/../icon.xpm 
-StartupWMClass=Eclipse
+StartupWMClass=APPNAME
 ```
+
+- Make the .desktop file executable.
+``` 
+ $ chmod a+x ~/.local/share/applications/APPNAME.desktop
+```
+
+- Now you'll be able to see the app.
