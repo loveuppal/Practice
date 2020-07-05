@@ -38,8 +38,9 @@ Scan completed for wifi.
 ```
 $ connmanctl> services
 ```
-You will see a list of available Wi-Fi nearby with their SSID name and its ID tag .</br>
-```$ connmanctl> connect wifi_d066842gfjfk_48545erfd_managed_psk
+You will see a list of available Wi-Fi nearby with their SSID name and its ID tag.
+```
+$ connmanctl> connect wifi_d066842gfjfk_48545erfd_managed_psk
 Passphrase? •••••••• type the password</br>
 connected wifi_d066842gfjfk_48545erfd_managed_psk
 ```
