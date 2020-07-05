@@ -2,7 +2,7 @@
 - Create a *.desktop* file at *~/.local/share/applications*
  - **:$ nano ~/.local/share/applications/APPNAME.desktop**
 - Add the following lines onto the file.
-```bash
+```console
 [Desktop Entry]</ br>
 Comment=Eclipse </ br>
 Terminal=false </ br>
