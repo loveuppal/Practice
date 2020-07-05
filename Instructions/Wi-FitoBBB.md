@@ -6,31 +6,44 @@
 ### ***T2U Nano*** Wi-fi adpater driver Installation.
 - Connect ethernet to your BBB to access the internet.
 - Download the latest kernel-headers of your BBB.</br>
-   **$ sudo apt install linux-headers-$(uname -r)**
+```
+ $ sudo apt install linux-headers-$(uname -r)
+```
 - Update and Upgrade you BBB.</br>
-   **$ sudo apt update && sudo apt upgrade**
+```
+$ sudo apt update && sudo apt upgrade**
+```
 - Do as follows</br>
-   **$ sudo apt install dkms** </br>
-   **$ git clone -b v5.6.4.2 https://github.com/aircrack-ng/rtl8812au.git** </br>
-   **$ cd rtl8812au** </br>
-   **$ sudo ./dkms-install.sh** usually takes a long time to complete, be patient. </br>
-   **$ sudo reboot**</br>
+```
+   $ sudo apt install dkms
+   $ git clone -b v5.6.4.2 https://github.com/aircrack-ng/rtl8812au.git
+   $ cd rtl8812au
+   $ sudo ./dkms-install.sh  >>usually takes a long time to complete, be patient.
+   $ sudo reboot
+```
 - After reboot, SSH to you BBB.
 - Open terminal and type ***iwconfig*** to check if you can see ***wlan0***.</br>
 - if yes, you've successfully installed the drives Cheers!</br>
 ### Connect BBB to a Wi-Fi nearby network
 - Do as follows </br>
+```
 **$ sudo connmanctl** this is already installed in your BBB</br>
 **$ connmanctl> agent on**</br>
+```
 Agent Registerd.</br>
+```
 **$ connmanctl> scan wifi**</br>
+```
 Scan completed for wifi.</br>
-**$ connmanctl> services**</br>
+```
+$ connmanctl> services**</br>
+```
 You will see a list of available Wi-Fi nearby with their SSID name and its ID tag .</br>
-**$ connmanctl> connect wifi_d066842gfjfk_48545erfd_managed_psk**</br>
-...... .</br>
-...... .</br>
-...... .</br>
+```$ connmanctl> connect wifi_d066842gfjfk_48545erfd_managed_psk
+...... .
+...... .
+...... .
 Passphrase? •••••••• type the password</br>
-**connected wifi_d066842gfjfk_48545erfd_managed_psk**</br>
+connected wifi_d066842gfjfk_48545erfd_managed_psk
+```
 - You've successfully connected ping 8.8.8.8 to check the connection.
