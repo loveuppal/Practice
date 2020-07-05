@@ -1,5 +1,0 @@
-### Cross Compilation b/w Eclipse and Beaglebone Black.
-- Install Remote Server Systems in your Eclipse.
-```
- Help >> Install New Software | Work with: All available sites and Search "Remote"
- ```
