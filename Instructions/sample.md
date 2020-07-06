@@ -1,35 +1,35 @@
-- [x] Beaglebone
+- [] Beaglebone
  - Why Beaglebone:
    - 4GB eMMC
    - 512MB RAM
    - Linux System
-- [x] GPS LLC 746
+- [] GPS LLC 746
  - Why GPS LLC 746:
-  - xxx
-  - xxx
-  - xxx
-- [x] GT-521F32
+   - xxx
+   - xxx
+   - xxx
+- [] GT-521F32
  - Why GT-521F32:
-  - xxx
-  - xxx
-  - xxx
-- [x] Wi-Fi AC600 USB2.0
+   - xxx
+   - xxx
+   - xxx
+- [] Wi-Fi AC600 USB2.0
  - Why Wi-Fi AC600 USB2.0:
-  - xxx
-  - xxx
-  - xxx
-- [x] Level Shifter BOB 12009
+   - xxx
+   - xxx
+   - xxx
+- [] Level Shifter BOB 12009
  - Why Level Shifter BOB 12009:
-  - xxx
-  - xxx
-  - xxx
-- [x] Storage Media
+   - xxx
+   - xxx
+   - xxx
+- [] Storage Media
  - Why Storage Media:
-  - xxx
-  - xxx
-  - xxx
-- [x] Keypad Butons
+   - xxx
+   - xxx
+   - xxx
+- [] Keypad Butons
  - Why Keypad:
-  - xxx
-  - xxx
-  - xxx
+   - xxx
+   - xxx
+   - xxx
