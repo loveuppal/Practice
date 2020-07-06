@@ -10,7 +10,10 @@
 - Download the Flasher software *balenaEtcher* and install it.<br />
 - Download the latest OS Image for your Beaglebone.<br />
 - Connect the SD card to PC.
-- Open *balenaEtcer* then *Select OS Image > Select SD Card > Flash*<br />
+- Open *balenaEtcer* then 
+```
+Select OS Image > Select SD Card > Flash
+```
 - Remove the SD card.<br />
 - Open the SD Card, Navigate to */boot/uEnv.txt, Edit it by *sudo nano uEnv.txt*.*<br />
 - Search for *#cmdline=init=/opt/scripts/tools/eMMC/init-eMMC-flasher-v3.sh* and Remove **#** <br />
