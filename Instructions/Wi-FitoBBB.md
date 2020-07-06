@@ -27,12 +27,12 @@ $ sudo apt update && sudo apt upgrade**
 ### Connect BBB to a Wi-Fi nearby network
 - Do as follows </br>
 ```
-**$ sudo connmanctl** this is already installed in your BBB</br>
-**$ connmanctl> agent on**</br>
+$ sudo connmanctl (this is already installed in your BBB)
+$ connmanctl> agent on
 ```
 Agent Registerd.</br>
 ```
-**$ connmanctl> scan wifi
+$ connmanctl> scan wifi
 ```
 Scan completed for wifi.
 ```
