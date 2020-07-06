@@ -2,7 +2,8 @@
 1. First clone the repository that you want work on.
 2. Open the cloned repository.
 3. Initialize the respoitory into github.
-``` git init.
+```
+ git init
 ```
 4. Initialize the to add the files.
 ```
