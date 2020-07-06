@@ -11,9 +11,18 @@
 # Merging Repositories into one.
 1. First clone the repository that you want to merge into.
 2. Open the cloned repository.
-3. Use command >> git subtree add -P DirectoryName RepositoryYouWantToMergeURL.git master
-4. Commit the changes you've made using >> git commit -m "xxx changes"
-5. Upload the changes you've made using >> git push origin branch(usually master)
+3. Use command 
+```
+git subtree add -P DirectoryName RepositoryYouWantToMergeURL.git master
+```
+4. Commit the changes you've made using. 
+``` 
+git commit -m "xxx changes"
+```
+5. Upload the changes you've made using. 
+```
+git push origin branch(usually master)
+```
 6. Delete the old repository.
 
 # Always PULL before PUSH
