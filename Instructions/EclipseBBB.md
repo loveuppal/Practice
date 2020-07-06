@@ -83,3 +83,21 @@ Includes	| Add : /usr/arm-linux-gnueabihf/include
 Libary Paths	| Add : /usr/arm-linux-gnueabihf/lib
 ```
 Replace with **arm-linux-gnueabi** if your BBB has this Compiler.
+
+### Running the code.
+- Write the code.
+- Build the project.
+- Copy file under **Debug**
+```
+Test -[arm/le]
+```
+- Paste into the Remote server Beaglebone Connection.
+- Make it executable file.
+```
+chmod ugo+x Test
+```
+- run the file.
+```
+./Test
+```
+- You've run.
