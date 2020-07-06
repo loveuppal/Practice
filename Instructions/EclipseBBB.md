@@ -30,7 +30,7 @@ Click on My home and you will enter the credentials.
 - You are now connected view all the files in BBB by dropping down menu.
 
 **BBB Terminal View in Eclipse**
-- You can explore the BBB while in Eclipse by enabling the SSH terminal window in the Eclipse.
+- You can explore the BBB while in Eclipse by enabling the SSH terminal window.
 - If you can't see *Terminal* Tab, go here.
 ```
 Window > Show view > Terminal. 
@@ -51,22 +51,34 @@ OK
 ```
 $ whereis gcc
 gcc: /usr/bin/gcc /usr/lib/gcc
-$ cd /usr/lib/gcc
+$ ls /usr/lib/gcc
 ```
 - You'll see either of these
 ```
 arm-linux-gnueabihf (or) arm-linux-gnueabi
 ```
 - Now on your Host Machine, install the ARM GCC Compiler.
-- If you see **arm-linux-gnueabihf** 
+
 ```
 $ sudo apt update && sudo apt upgrade
 $ sudo apt install arm-linux-gnueabihf
 $ sudo apt update && sudo apt upgrade
 ```
-- If you see **arm-linux-gnueabi** 
+- Replace with **arm-linux-gnueabi** if your BBB has this Compiler.
+
+### Running a sample code.
+- Create a New Project under C Build  Settings.
+- Right Clickon Project > Properties
+- C/C++ Build > Settings.
 ```
-$ sudo apt update && sudo apt upgrade
-$ sudo apt install arm-linux-gnueabi
-$ sudo apt update && sudo apt upgrade
+
+GCC Compiler | Command : arm-linux-gnueabihf-gcc 
+GCC C Linker | Command : arm-linux-gnueabihf-gcc
+GCC Assembler| Command : arm-linux-gnueabihf-as
 ```
+- C/C++ General > Paths and Symbols
+```
+Includes	| Add : /usr/arm-linux-gnueabihf/include
+Libary Paths	| Add : /usr/arm-linux-gnueabihf/lib
+```
+Replace with **arm-linux-gnueabi** if your BBB has this Compiler.
