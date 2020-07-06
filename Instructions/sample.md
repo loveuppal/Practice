@@ -1,8 +1,8 @@
 - [x] Beaglebone
  - Why Beaglebone:
-  - 4GB eMMC
-  - 512MB RAM
-  - Linux System
+   - 4GB eMMC
+   - 512MB RAM
+   - Linux System
 - [x] GPS LLC 746
  - Why GPS LLC 746:
   - xxx
