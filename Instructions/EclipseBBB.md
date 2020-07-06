@@ -1,5 +1,5 @@
-## Cross Compilation b/w Eclipse and Beaglebone Black.
-### Connect BBB to Eclipse.
+# Cross Compilation b/w Eclipse and Beaglebone Black.
+## Connect BBB to Eclipse.
 - Install Remote Server Systems in your Eclipse.
 ```
 Help >> Install New Software | Work with: All available sites and Search "Remote".
@@ -29,7 +29,7 @@ Click on My home and you will enter the credentials.
 ```
 - You are now connected view all the files in BBB by dropping down menu.
 
-**BBB Terminal View in Eclipse**
+### BBB Terminal View in Eclipse
 - You can explore the BBB while in Eclipse by enabling the SSH terminal window.
 - If you can't see *Terminal* Tab, go here.
 ```
@@ -45,7 +45,7 @@ OK
 ```
 - Now you can browse the BBB.
 
-### Install the Cross compiler.
+## Install the Cross compiler.
 
 - Check the location of GCC on the Beagebone.
 ```
@@ -66,7 +66,8 @@ $ sudo apt update && sudo apt upgrade
 ```
 - Replace with **arm-linux-gnueabi** if your BBB has this Compiler.
 
-### Running a sample code.
+## Running a sample code.
+### Build Settings
 - Create a New Project under C Build  Settings.
 - Right Clickon Project > Properties
 - C/C++ Build > Settings.
