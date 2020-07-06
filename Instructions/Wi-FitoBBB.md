@@ -28,16 +28,15 @@ $ sudo apt update && sudo apt upgrade**
 - Do as follows </br>
 ```
 $ sudo connmanctl (this is already installed in your BBB)
+
 $ connmanctl> agent on
-```
-Agent Registerd.</br>
-```
+Agent Registerd.
+
 $ connmanctl> scan wifi
-```
 Scan completed for wifi.
-```
+
 $ connmanctl> services
-```
+``
 You will see a list of available Wi-Fi nearby with their SSID name and its ID tag.
 ```
 $ connmanctl> connect wifi_d066842gfjfk_48545erfd_managed_psk
