@@ -1,9 +1,10 @@
+/*This is a simple code that counts every key press */
+
 #include<stdio.h>
-int main ()
-{
-  
-  int c = 0;
-  for(c=0;c<=10;) {
+
+int main () {
+  int c = 0;			/*Initiate counter variable */
+  while(1) {		/* Loop that counts */
       int a;
 	   scanf ("%d", &a);
       if (a == 55) {
