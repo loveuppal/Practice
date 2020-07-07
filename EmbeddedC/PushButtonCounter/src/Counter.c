@@ -8,6 +8,13 @@
  ============================================================================
  */
 
+/*
+ ============================================================================
+This code works for Beaglebone Black Rev3. 
+Free to use and modify but please contribute what you've taken.
+ ============================================================================
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
