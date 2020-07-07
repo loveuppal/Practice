@@ -4,13 +4,12 @@
 
 int main () {
   int c = 0;			/*Initiate counter variable */
-  while(1) {		/* Loop that counts */
-      int a;
-	   scanf ("%d", &a);
-      if (a == 55) {
-    	  c = c+1;
-    	
+  while(1) {			/* Forever Loop that counts */
+	int a;			/* Variable to scan*/
+	scanf ("%d", &a);	/* Scans input */
+      if (a == 55) {		/* If '55' is given*/
+    	  c = c+1;		/* Count increment*/
 	}
-        printf ("%d ", c);
+        printf ("%d ", c);	/* Print the counted number*/
     }
 }
