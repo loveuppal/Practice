@@ -68,9 +68,9 @@ $ sudo apt update && sudo apt upgrade
 
 ## Running a sample code.
 ### Build Settings
-- Create a New Project under C Build  Settings.
+- Create a New Project > C/C++ Project > C Managed Build > Executable > Empty Project > Linux GCC > Finish
 - Right Clickon Project > Properties
-- C/C++ Build > Settings >> Tool Settings.
+- C/C++ Build > Settings > Tool Settings.
 ```
 
 GCC Compiler | Command : arm-linux-gnueabihf-gcc 
