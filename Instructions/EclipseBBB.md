@@ -70,7 +70,7 @@ $ sudo apt update && sudo apt upgrade
 ### Build Settings
 - Create a New Project under C Build  Settings.
 - Right Clickon Project > Properties
-- C/C++ Build > Settings.
+- C/C++ Build > Settings >> Tool Settings.
 ```
 
 GCC Compiler | Command : arm-linux-gnueabihf-gcc 
