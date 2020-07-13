@@ -3,6 +3,11 @@
  *
  *  Created on: Jul. 13, 2020
  *      Author: srikanthpendem
+============================================================================
+This code works for Beaglebone Black Rev3. 
+Free to use and modify but please do not forget to recontribute.
+============================================================================
+ 
  */
 
 #include<stdio.h>
