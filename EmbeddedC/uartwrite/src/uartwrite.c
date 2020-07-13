@@ -7,7 +7,7 @@
 This code works for Beaglebone Black Rev3. 
 Free to use and modify but please do not forget to recontribute.
 ============================================================================
- 
+ configure UART before using this code.
  */
 
 #include<stdio.h>
