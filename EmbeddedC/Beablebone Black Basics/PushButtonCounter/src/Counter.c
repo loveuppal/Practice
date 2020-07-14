@@ -12,6 +12,7 @@
  ============================================================================
 This code works for Beaglebone Black Rev3. 
 Free to use and modify but please do not forget to recontribute.
+This code controls the GPIO P9.12
  ============================================================================
  */
 
