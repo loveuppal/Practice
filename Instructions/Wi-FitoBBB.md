@@ -1,5 +1,5 @@
 ## Intsructions to connect Wi-Fi to BBB.
-###Note: You will need Internet connection to get through these steps. Please refer **Share WiFi over Ethernet** on this same directory.
+### Note: You will need Internet connection to get through these steps. Please refer **Share WiFi over Ethernet** on this same directory.
 - Initially check if you have already installed a Wi-Fi driver in your BBB. (probably it is not.) </br>
 - Open terminal and type ***iwconfig*** to check if you can see ***wlan0***.</br>
 - If you dont have one, it does mean you've no Wi-Fi driver installed.
