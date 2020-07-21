@@ -8,6 +8,7 @@ This code parses GPGGA string and prints the co-ordinates.
 Only Latitude and Longitude coordinates are being printed.
 GPGGA C Code, GPS Module
 This code uses math library, please do not forget to link math library into your eclipse or compile by adding -lm
+------------------------------------------------------------------------------------
  */
 
 
