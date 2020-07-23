@@ -14,7 +14,6 @@ Open System Properties     : Win+R > Type: sysdm.cpl SystemProperties or sysdm.c
 ```
 ```
 In System Properties     : Advanced Tab > Environment Variable > System Variables > Double-Click on PATH > New
-
 ```
 
 ```
