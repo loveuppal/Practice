@@ -4,7 +4,7 @@
   - Recommended Download for Beaglebone : **AArch32 target with hard float (arm-none-linux-gnueabihf)**
 - Eclipse IDE for C/C++
 - Make 3.81 &nbsp;&nbsp;&nbsp; :https://sourceforge.net/projects/gnuwin32/files/make/3.81/make-3.81.exe/download?use_mirror=cfhcable&download=
-##Steps
+## Steps
 - Install the Eclipse.
 - Install the Make
 - Extract the GCC Compiler Package
