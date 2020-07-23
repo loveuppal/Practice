@@ -109,10 +109,16 @@ C/C++ Remote Application > Double-Click
 
 Main:
 Connection > New > Connection Type : SSH
-
+```
+```
 New Connection:
 Remote Name : AnyName
 Host        : 192.168.7.2
 User        : debian
 Password    : ••••••
+Finish
+```
+```
+Main: 
+Remote Absolye File Path for C/C++ Appliction : Locate where you want to run the code.
 ```
