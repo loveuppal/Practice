@@ -14,6 +14,10 @@ Open System Properties     : Win+R > Type: sysdm.cpl SystemProperties or sysdm.c
 ```
 ```
 In System Properties     : Advanced Tab > Environment Variable > System Variables > Double-Click on PATH > New
+
+```
+
+```
 ADD:  C:\Program Files\gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf\bin
 ADD:  C:\Program Files (x86)\GnuWin32\bin
 ```
