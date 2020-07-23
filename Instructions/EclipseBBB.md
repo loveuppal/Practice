@@ -84,7 +84,7 @@ Libary Paths	| Add : /usr/arm-linux-gnueabihf/lib
 ```
 Replace with **arm-linux-gnueabi** if your BBB has this Compiler.
 
-### Running the code.
+### Running the code in the BBB.
 - Write the code.
 - Build the project.
 - Copy file under **Debug**
@@ -104,3 +104,9 @@ chmod ugo+x Test
 
 ### Remote debugging the code within the Eclipse.
 - Go to the working project ``` > Right-Click > Run As > Run Configuration```
+```
+C/C++ Remote Application > Double-Click
+Main:
+Connection > New > Connection Type : SSH
+
+```
