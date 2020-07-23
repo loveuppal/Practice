@@ -106,7 +106,13 @@ chmod ugo+x Test
 - Go to the working project ``` > Right-Click > Run As > Run Configuration```
 ```
 C/C++ Remote Application > Double-Click
+
 Main:
 Connection > New > Connection Type : SSH
 
+New Connection:
+Remote Name : AnyName
+Host        : 192.168.7.2
+User        : debian
+Password    : ••••••
 ```
