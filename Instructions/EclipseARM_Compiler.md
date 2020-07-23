@@ -10,5 +10,5 @@
 - Extract the GCC Compiler Package
 - Add GCC and Make PATHS to Environment Variable.
 ```
-Open System Properties&nbsp;&nbsp;: Win+R > Type: sysdm.cpl SystemProperties or sysdm.cpl DisplaySYSDMCPL :: Enter
+Open System Properties &nbsp;&nbsp; : Win+R > Type: sysdm.cpl SystemProperties or sysdm.cpl DisplaySYSDMCPL :: Enter
 ```
