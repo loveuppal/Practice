@@ -24,3 +24,11 @@ ADD MAKE PATH :  C:\Program Files (x86)\GnuWin32\bin
 ```
 New Project > C Project > Hello ANSI C Project :: Cross GCC > Select Configration :: (Down-Right) Advanced.
 ```
+```
+C/C++ Build > Builder type: Internal.
+
+Tool Settings > Setting > Cross Settings > Path: C:\Program Files\gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf\bin.
+    Cross GCC Compiler : arm-none-linux-gnueabihf-gcc
+    Cross GCC Linker : arm-none-linux-gnueabihf-gcc
+    Cross GCC Assembler : arm-none-linux-gnueabihf-as
+```
