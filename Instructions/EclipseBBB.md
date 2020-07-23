@@ -101,3 +101,6 @@ chmod ugo+x Test
 ./Test
 ```
 - You've run.
+
+### Remote debugging the code within the Eclipse.
+- Go to the working project ``` > Right-Click > Run As > Run Configuration```
