@@ -8,3 +8,7 @@
 - Install the Eclipse.
 - Install the Make
 - Extract the GCC Compiler Package
+- Add GCC and Make PATHS to Environment Variable.
+```
+Win+R > Type: sysdm.cpl SystemProperties or sysdm.cpl DisplaySYSDMCPL :: Enter
+```
