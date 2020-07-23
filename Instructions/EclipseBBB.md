@@ -120,5 +120,7 @@ Finish
 ```
 ```
 Main: 
-Remote Absolye File Path for C/C++ Appliction : Locate where you want to run the code.
+Remote Absolute File Path for C/C++ Appliction : Locate where you want to run the code in the BBB.
+Run
 ```
+- Thats it! Now you can remotely run the code within the BBB.
