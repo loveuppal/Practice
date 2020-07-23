@@ -17,6 +17,6 @@ In System Properties     : Advanced Tab > Environment Variable > System Variable
 ```
 
 ```
-ADD GCC PATH:  C:\Program Files\gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf\bin
-ADD MAKE PATH:  C:\Program Files (x86)\GnuWin32\bin
+ADD GCC PATH  :  C:\Program Files\gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf\bin
+ADD MAKE PATH :  C:\Program Files (x86)\GnuWin32\bin
 ```
