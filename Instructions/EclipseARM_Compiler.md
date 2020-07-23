@@ -21,3 +21,6 @@ ADD GCC PATH  :  C:\Program Files\gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-li
 ADD MAKE PATH :  C:\Program Files (x86)\GnuWin32\bin
 ```
 ### In Eclipse.
+```
+New Project > C Project > Hello ANSI C Project :: Cross GCC > Select Configration :: (Down-Right) Advanced.
+```
