@@ -7,7 +7,7 @@
 ## Steps
 - Install the Eclipse.
 - Install the Make
-- Extract the GCC Compiler Package at C:\Program Files
+- Extract the GCC Compiler Package at ```C:\Program Files```
 - Add GCC and Make PATHS to Environment Variable.
 ```
 Open System Properties     : Win+R > Type: sysdm.cpl SystemProperties or sysdm.cpl DisplaySYSDMCPL :: Enter
