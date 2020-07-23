@@ -29,11 +29,20 @@ C/C++ Build
 > Builder type: Internal.
 
 Tool Settings > Setting > Cross Settings > Path: C:\Program Files\gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf\bin.
-               Cross GCC Compiler : arm-none-linux-gnueabihf-gcc
-               Cross GCC Linker : arm-none-linux-gnueabihf-gcc
-               Cross GCC Assembler : arm-none-linux-gnueabihf-as
+               Cross GCC Compiler   : arm-none-linux-gnueabihf-gcc
+               Cross GCC Linker     : arm-none-linux-gnueabihf-gcc
+               Cross GCC Assembler  : arm-none-linux-gnueabihf-as
 
 Toolchain Editor
 Current toolchain : Cross GCC
 Current Builder   : CDT Internal Builder
 ```
+```
+C/C++ General
+Paths and Symbols > GNU C > Includes      : C:\Program Files\gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf\arm-none-linux-gnueabihf\include\c++\9.2.1
+                            Library Path  : C:\Program Files\gcc-arm-9.2-2019.12-mingw-w64-i686-arm-none-linux-gnueabihf\arm-none-linux-gnueabihf\lib
+
+Apply and Close 
+```
+- Build and Run
+- **Refer EclipseBBB on this same directory to connect your BBB to the Ecipse.**
